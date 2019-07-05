@@ -41,10 +41,7 @@ Linux: touch ssh
 Windows: Right click in boot root, goto New, select Text File, set filename to ssh and save.
 ```
 <p><strong>Note</strong>: Important that you have no <strong>txt</strong> extension, when create the file in windows or it will not enable ssh server.</p>
-<p>Insert the microSD card and plug in the Raspberry Pi. It will setup the Wifi Connection.</p>
-<p>You can connect to the <strong>raspberrypi.local</strong> or <strong>ip address</strong>.</p>
-
-**Note**: You can use this on non-headless Raspberry Pi installation.
+<p>You can connect to the Raspberry Pi by typing ssh <strong>pi@raspberrypi.local</strong> or <strong>ssh pi@(ip address)</strong> at the command prompt or terminal window and default password is <strong>raspberry</strong></p>
 
 ## Authors
 
