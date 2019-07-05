@@ -49,7 +49,7 @@ You can connect to the raspberrypi.local or ip address.
 
 ## Authors
 
-* **Shane Saunders** - *Initial work* - [asparatu](https://github.com/asparatu)
+**Shane Saunders** - *Initial work* - [asparatu](https://github.com/asparatu)
 
 ## License
 
