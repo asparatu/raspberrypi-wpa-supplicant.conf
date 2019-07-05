@@ -24,24 +24,25 @@ Windows: notepad wpa_supplicant.conf
 4. Edit country to your two letter ISO Code.
 If you do not know yours, check [countrycode.org](https://countrycode.org/) or keep the default of US
 
-5. Edit SSID and PSK
+5. Edit the Wifi SSID and PSK to your Wifi Information.
 ```
 ssid="YOUR-SSID"
 psk="wpa_passphrase"
 ```
-Change these to your WiFi settings, **Note**: If using clear text password make sure you keep the quotes.
+**Note**: If using clear text password make sure you keep the quotes. If you use a hash of the password, you do not need to have quotes.
 
-6 Save the file and copy it the root of the microSD drive.
+6. Save the file and copy it the root of the microSD drive.
 ```
 The drive  label should say "boot"
 ```
 7. Enable SSH
 ```
 Linux: touch ssh
-Windows: Right click in boot root, goto New, select Text File, Delete name and Extension, rename ssh and save.
+Windows: Right click in boot root, goto New, select Text File, set filename to ssh and save.
 ```
-Insert the microSD card and plug in the Raspberry Pi. It will setup the Wifi Connection.
-You can connect to the raspberrypi.local or ip address.
+<p><strong>Note</strong>: Important that you have no <strong>txt</strong> extension, when create the file in windows or it will not enable ssh server.</p>
+<p>Insert the microSD card and plug in the Raspberry Pi. It will setup the Wifi Connection.</p>
+<p>You can connect to the <strong>raspberrypi.local</strong> or <strong>ip address</strong>.</p>
 
 **Note**: You can use this on non-headless Raspberry Pi installation.
 
