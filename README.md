@@ -21,4 +21,5 @@ cd raspberrypi-wpa-supplicant.conf
 Linux: nano wpa_supplicant.conf
 Windows: notepad wpa_supplicant.conf
 ```
-4. 
+
+### Work in progress
