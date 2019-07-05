@@ -47,6 +47,10 @@ You can connect to the raspberrypi.local or ip address.
 
 **Note**: You can use this on non-headless Raspberry Pi installation.
 
+## Authors
+
+* **Shane Saunders** - *Initial work* - [asparatu](https://github.com/asparatu)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
