@@ -21,11 +21,9 @@ cd raspberrypi-wpa-supplicant.conf
 Linux: nano wpa_supplicant.conf
 Windows: notepad wpa_supplicant.conf
 ```
-4. Set your country in configuration
-```
-Edit country to your two letter ISO Code.
-```
+4. Edit country to your two letter ISO Code.
 If you do not know yours, check [countrycode.org](https://countrycode.org/) or keep the default of US
+
 5. Edit SSID and PSK
 ```
 ssid="YOUR-SSID"
