@@ -32,10 +32,9 @@ psk="wpa_passphrase"
 **Note**: If using clear text password make sure you keep the quotes. If you use a hash of the password, you do not need to have quotes.
 
 6. Save the file and copy the file to the root directory on the microSD card that says "Boot".
-7. How to enable SSH Server on boot
+7. How to enable SSH Server on boot.
 ```
-In the root directory on the microSD card, create a ssh file.
-
+In the root directory of the mircoSD card, you need to create a empty ssh file.
 Linux: touch ssh
 Windows: Right click in boot root, goto New, select Text File, set filename to ssh and save.
 ```
