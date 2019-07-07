@@ -39,6 +39,7 @@ Linux: touch ssh
 Windows: Right click, goto New, select Text File, set filename to ssh and press enter to save.
 ```
 <p><strong>Note</strong>: Important that you have no <strong>txt</strong> extension, when create the file in windows or it will not enable ssh server.</p>
+<p><strong>Note</strong>:If you do not see the <strong>txt</strong> extension in Windows Explorer, click View, check <strong>File Name Extensions</strong> by default this is not enable on windows.</p>
 <p>You can connect to the Raspberry Pi by typing ssh <strong>pi@raspberrypi.local</strong> or <strong>ssh pi@(ip address)</strong> at the command prompt or terminal window and default password is <strong>raspberry</strong></p>
 
 ## Authors
