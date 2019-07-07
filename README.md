@@ -36,7 +36,7 @@ psk="wpa_passphrase"
 ```
 In the root directory of the mircoSD card, you need to create a empty ssh file.
 Linux: touch ssh
-Windows: Right click in boot root, goto New, select Text File, set filename to ssh and save.
+Windows: Right click, goto New, select Text File, set filename to ssh and press enter to save.
 ```
 <p><strong>Note</strong>: Important that you have no <strong>txt</strong> extension, when create the file in windows or it will not enable ssh server.</p>
 <p>You can connect to the Raspberry Pi by typing ssh <strong>pi@raspberrypi.local</strong> or <strong>ssh pi@(ip address)</strong> at the command prompt or terminal window and default password is <strong>raspberry</strong></p>
