@@ -42,7 +42,7 @@ Windows: Right click, goto New, select Text File, set filename to ssh and press 
 <p><strong>Note</strong>:If you do not see the <strong>txt</strong> extension in Windows Explorer, click View, check <strong>File Name Extensions</strong> by default this is not enable on windows.</p>
 
 ## How to connect to Raspberry Pi
-<p>You can connect to the Raspberry Pi by typing ssh <strong>pi@raspberrypi.local</strong> or <strong>ssh pi@(ip address)</strong> at the command prompt or terminal window and default password is <strong>raspberry</strong></p>
+<p>You can connect to the Raspberry Pi by typing <strong>ssh pi@raspberrypi.local</strong> or <strong>ssh pi@(ip address)</strong> at the command prompt or terminal window and default password is <strong>raspberry</strong></p>
 
 ## Authors
 
