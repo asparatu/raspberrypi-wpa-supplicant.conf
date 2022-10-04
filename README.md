@@ -32,14 +32,7 @@ psk="wpa_passphrase"
 **Note**: If using clear text password make sure you keep the quotes. If you use a hash of the password, you do not need to have quotes.
 
 6. Save the file and copy the file to the <strong>Boot</strong> directory on the microSD card.
-7. How to enable SSH Server on boot.
-```
-In the root directory of the mircoSD card, you need to create a empty ssh file.
-Linux: touch ssh
-Windows: Right click, goto New, select Text File, set filename to ssh and press enter to save.
-```
-<p><strong>Note</strong>: Important that you have no <strong>txt</strong> extension, when create the file in windows or it will not enable ssh server.</p>
-<p><strong>Note</strong>:If you do not see the <strong>txt</strong> extension in Windows Explorer, click View, check <strong>File Name Extensions</strong> by default this is not enable on windows.</p>
+7. <strong>Optional</strong>: To enable SSH Server on boot, you need to copy the <strong>ssh</strong> file to the root of the microSD card.
 
 ## How to connect to Raspberry Pi
 <p>You can connect to the Raspberry Pi by typing <strong>ssh pi@raspberrypi.local</strong> or <strong>ssh pi@(ip address)</strong> at the command prompt or terminal window and default password is <strong>raspberry</strong></p>
